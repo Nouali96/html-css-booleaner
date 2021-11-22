@@ -1,0 +1,16 @@
+
+#sfondo{
+    background-image: url(img\pattern.jpg);
+    background-color: rgb(78, 160, 255);
+    
+    
+}
+
+#logo{
+    width: 15%;
+    display: inline;
+}
+
+h1{
+    font-size: 3em;
+}
