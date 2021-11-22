@@ -1,4 +1,8 @@
 
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 #sfondo{
     background-image: url('../img/pattern.png');
@@ -12,13 +16,16 @@
     width: 20%;
 }
 
+
 h1{
     font-size: 3em;
     margin-bottom: 0px;
 }
 
-#author{
+.grey{
     color: rgb(131, 131, 131);
+}
+#author{
     font-size: 25px;
 }
 
@@ -36,12 +43,16 @@ h1{
 
 #img-tim{
     margin-top: 30px;
-
 }
 
 #caption>p{
     font-size: 15px;
     margin: 0px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
 }
 
 .underline{
@@ -55,17 +66,32 @@ h1{
 table {
     border-collapse: collapse;
     width: 100%;
-  }
-  
-  th, td {
-    text-align: left;
-  }
-  
-  tr:nth-child(even) {
-      background-color: rgb(177, 229, 242);
-    }
-  
-  th {
-    background-color: rgb(78, 160, 255);
+}
+
+
+tr:nth-child(even) {
+    background-color: rgb(177, 229, 242);
+}
+
+th {
+background-color: rgb(78, 160, 255);
+color: white;
+text-align: left;
+}
+
+.conteiner{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+
+}
+.conteiner>p {
+    position: absolute;
+    padding-left: 10px;
     color: white;
-  }
+}
+
+.conteiner>img{
+    position: absolute;
+}
