@@ -95,3 +95,7 @@ text-align: left;
 .conteiner>img{
     position: absolute;
 }
+
+#item2{
+    font-size: 25px;
+}
