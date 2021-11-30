@@ -7,12 +7,13 @@ body{
 #sfondo{
     background-image: url('../img/pattern.png');
     background-color: rgb(78, 160, 255);
-    background-size: contain;
+    background-size: 30%;
+    height: 100px;
    
 }
 
 #logo{
-    margin-top: 2%;
+    margin-top: 20px;
     width: 20%;
 }
 
